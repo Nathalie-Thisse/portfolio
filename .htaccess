@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+
+    #redirecting to https: 
+    # info: https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/#etape-4-verifier-le-bon-fonctionnement-de-votre-site
+    RewriteEngine On
+    RewriteCond %{SERVER_PORT} 80
+    RewriteRule ^(.*)$ https://www.nathalie-dev.me/$1 [R=301,L]
+
+</IfModule>
