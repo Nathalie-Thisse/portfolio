@@ -120,6 +120,7 @@ input, select, textarea {
 			color: #316077 !important;
 			text-decoration: none;
 		}
+		
 
 	strong, b {
 		color: #787878;
@@ -2564,9 +2565,9 @@ input, select, textarea {
 
 /* Work Item */
 
-	.work-item {
+	/* .work-item {
 		margin: 0 0 2em 0;
-	}
+	} */
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
@@ -2684,6 +2685,10 @@ input, select, textarea {
 
 		#footer .icons a {
 			color: rgba(255, 255, 255, 0.4);
+		}
+
+		#footer .icons a:hover {
+			color: #316077 !important;
 		}
 
 	#footer .copyright {
