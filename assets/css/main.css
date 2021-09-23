@@ -2655,6 +2655,17 @@ input, select, textarea {
 			width: 9.25em;
 		}
 
+		#header .site-language{
+			margin-bottom: 2rem;
+		}
+			#header .site-language a{
+				color: white;
+			}
+
+			#header .site-language a:first-of-type{
+				margin-right: 2rem;
+			}
+
 		/*section for languages list*/
 		#header .languages{
 			margin-left: 3rem;
@@ -3223,6 +3234,11 @@ input, select, textarea {
 
 				#header .languages div{
 					padding: 1rem;
+				}
+
+				#header .site-language{
+					margin-bottom: 5rem; 
+					color: white;
 				}
 
 		/* Footer */
